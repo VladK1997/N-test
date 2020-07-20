@@ -1,17 +1,23 @@
 .title-block{
   display: flex;
-  margin: 44px 0 16px;
-  &__text{
+  margin: 44px 0 14px;
+  &__text {
     margin: 0 0 0 15px;
   }
-
   &__title{
     font-weight: 500;
   }
+  &__time{
+    font-size: 14px;
+    margin: 7px 0 14px;
+  }
+  &__desc{
+    font-size: 18px;
+  }
   &__status{
     align-self: center;
-    width: 68px;
-    height: 68px;
+    width: 67px;
+    height: 66px;
     color: #fff;
     display: flex;
     align-items: center;
