@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'AnisettePetite';
+  src: url('#{$path}/AnisetteTryPetite-Regular.eot');
+  src: url('#{$path}/AnisetteTryPetite-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}/AnisetteTryPetite-Regular.woff2') format('woff2'),
+  url('#{$path}/AnisetteTryPetite-Regular.woff') format('woff'),
+  url('#{$path}/AnisetteTryPetite-Regular.ttf') format('truetype'),
+  url('#{$path}/AnisetteTryPetite-Regular.svg#AnisetteTryPetite-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+
+}

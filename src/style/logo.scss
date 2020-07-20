@@ -1,0 +1,25 @@
+.logo{
+  display: flex;
+  align-items: center;
+  &__text{
+    margin-left: 18px;
+    padding-left: 18px;
+    color: #808080;
+    border-left: 2px solid #808080;
+
+    span{
+      line-height: 14.8px;
+      display: block;
+    }
+  }
+  &--rtl{
+    direction: rtl;
+  }
+  &--rtl &__text{
+    direction: rtl;
+    margin: 0 18px 0 0;
+    padding: 0 18px 0 0;
+    border-left: none;
+    border-right: 2px solid #808080;
+  }
+}
